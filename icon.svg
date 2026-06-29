@@ -1,0 +1,41 @@
+<svg width="256" height="256" viewBox="-280 -280 560 560" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield body -->
+  <path d="M0,-230 L170,-150 L170,40 Q170,180 0,260 Q-170,180 -170,40 L-170,-150 Z"
+        fill="#1a1a2e" stroke="#c9a227" stroke-width="8"/>
+  <!-- Shield inner surface -->
+  <path d="M0,-200 L148,-132 L148,38 Q148,158 0,228 Q-148,158 -148,38 L-148,-132 Z"
+        fill="#16213e"/>
+  <!-- Inner border -->
+  <path d="M0,-200 L148,-132 L148,38 Q148,158 0,228 Q-148,158 -148,38 L-148,-132 Z"
+        fill="none" stroke="#7a6118" stroke-width="3"/>
+  <!-- Left sword -->
+  <g transform="rotate(-38)">
+    <rect x="-6" y="-195" width="12" height="240" rx="2" fill="#c9a227" stroke="#7a6118" stroke-width="1.5"/>
+    <rect x="-2" y="-188" width="4" height="220" rx="1" fill="#f0c040" opacity="0.5"/>
+    <polygon points="-6,-195 6,-195 0,-225" fill="#f0c040"/>
+    <rect x="-30" y="40" width="60" height="12" rx="4" fill="#c9a227" stroke="#7a6118" stroke-width="1.5"/>
+    <rect x="-7" y="52" width="14" height="45" rx="3" fill="#3a2a0a" stroke="#7a6118" stroke-width="1.5"/>
+    <line x1="-7" y1="62" x2="7" y2="62" stroke="#c9a227" stroke-width="1.5"/>
+    <line x1="-7" y1="72" x2="7" y2="72" stroke="#c9a227" stroke-width="1.5"/>
+    <line x1="-7" y1="82" x2="7" y2="82" stroke="#c9a227" stroke-width="1.5"/>
+    <ellipse cx="0" cy="104" rx="12" ry="10" fill="#c9a227" stroke="#7a6118" stroke-width="1.5"/>
+  </g>
+  <!-- Right sword -->
+  <g transform="rotate(38)">
+    <rect x="-6" y="-195" width="12" height="240" rx="2" fill="#c9a227" stroke="#7a6118" stroke-width="1.5"/>
+    <rect x="-2" y="-188" width="4" height="220" rx="1" fill="#f0c040" opacity="0.5"/>
+    <polygon points="-6,-195 6,-195 0,-225" fill="#f0c040"/>
+    <rect x="-30" y="40" width="60" height="12" rx="4" fill="#c9a227" stroke="#7a6118" stroke-width="1.5"/>
+    <rect x="-7" y="52" width="14" height="45" rx="3" fill="#3a2a0a" stroke="#7a6118" stroke-width="1.5"/>
+    <line x1="-7" y1="62" x2="7" y2="62" stroke="#c9a227" stroke-width="1.5"/>
+    <line x1="-7" y1="72" x2="7" y2="72" stroke="#c9a227" stroke-width="1.5"/>
+    <line x1="-7" y1="82" x2="7" y2="82" stroke="#c9a227" stroke-width="1.5"/>
+    <ellipse cx="0" cy="104" rx="12" ry="10" fill="#c9a227" stroke="#7a6118" stroke-width="1.5"/>
+  </g>
+  <!-- Central star -->
+  <path d="M0,-58 L10,-28 L42,-28 L18,-10 L28,22 L0,4 L-28,22 L-18,-10 L-42,-28 L-10,-28 Z"
+        fill="#f0c040" stroke="#7a6118" stroke-width="2"/>
+  <!-- Bottom tip ornament -->
+  <path d="M-20,215 L0,240 L20,215" fill="none" stroke="#c9a227" stroke-width="4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

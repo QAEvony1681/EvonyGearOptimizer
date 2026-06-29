@@ -1,0 +1,28 @@
+# Evony Gear Optimizer — .gitignore
+
+# NEVER commit the GitHub token
+token.txt
+
+# PyInstaller build output
+build/
+dist/
+*.spec.bak
+
+# Inno Setup output
+installer_output/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# User settings (local only, not shared)
+settings.json
+
+# Temp files from data sync
+evony_data.xlsx.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
